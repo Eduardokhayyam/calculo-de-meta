@@ -1,0 +1,19 @@
+meta_venda=20000
+meta_loja=40000
+funcionario=29060
+loja=40200
+
+if funcionario > meta_venda and loja >= meta_loja:
+    bonus = funcionario* 0.03
+    print("Parabéns, atingiste as duas metas logo ganhaste um bônus de R${}"
+          .format(bonus))
+else:
+    print("Não atingiu os requisitos necessários") 
+
+nota_funcionario= 8
+meta_nota= 9
+if (funcionario > meta_venda and loja >= meta_loja) or nota_funcionario>=meta_nota:
+    bonus= funcionario*0.03
+    print("Atingiu as expectativas logo ganhou um bônus de R${}".format(bonus))
+else:
+    print("Não atingiu nenhuma das metas")
